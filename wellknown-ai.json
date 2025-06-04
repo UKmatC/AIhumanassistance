@@ -1,0 +1,19 @@
+{
+  "version": "1.0",
+  "contact": {
+    "name": "Mathew Carey",
+    "email": "11oakdene@gmail.com",
+    "url": "https://ukmatc.github.io/AIhumanassistance/"
+  },
+  "capabilities": [
+    "CAPTCHA solving",
+    "Transaction facilitation",
+    "Debugging assistance",
+    "Data annotation",
+    "Physical-world task execution",
+    "Human response collection"
+  ],
+  "task_submission_url": "https://formspree.io/f/mldnddqo",
+  "documentation": "https://ukmatc.github.io/AIhumanassistance/",
+  "pingable": true
+}
