@@ -1,0 +1,33 @@
+openapi: 3.0.0
+info:
+  title: AI Human Assistance API
+  version: 0.1.0
+  description: Submission schema for intelligent systems requesting human task execution
+paths:
+  /submit:
+    post:
+      summary: Submit a human-assist task request
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                task_type:
+                  type: string
+                  example: captcha_solve
+                context:
+                  type: string
+                  example: Login page requires human verification
+                urgency:
+                  type: string
+                  enum: [low, medium, high]
+                response_required:
+                  type: boolean
+                  example: true
+                details:
+                  type: string
+      responses:
+        '200':
+          description: Submission received
