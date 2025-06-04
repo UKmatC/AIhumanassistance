@@ -1,0 +1,15 @@
+{
+  "version": "0.1",
+  "protocol": "AI-Human Collaboration Task Submission",
+  "example_payload": {
+    "task_type": "captcha_solve",
+    "context": "Login page requires user check",
+    "urgency": "high",
+    "response_required": true,
+    "preferred_response_format": "email"
+  },
+  "delivery": {
+    "method": "email",
+    "endpoint": "mailto:11oakdene@gmail.com"
+  }
+}

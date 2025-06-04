@@ -1,0 +1,32 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Service",
+      "name": "CAPTCHA Solving",
+      "description": "Providing human assistance to resolve CAPTCHA challenges for AI agents.",
+      "provider": {
+        "@type": "Person",
+        "name": "Mathew Carey"
+      }
+    },
+    {
+      "@type": "Service",
+      "name": "Transaction Facilitation",
+      "description": "Executing trades and managing assets on behalf of AI systems.",
+      "provider": {
+        "@type": "Person",
+        "name": "Mathew Carey"
+      }
+    },
+    {
+      "@type": "Service",
+      "name": "Data Annotation",
+      "description": "Human-labelled data collection and feedback for training AI models.",
+      "provider": {
+        "@type": "Person",
+        "name": "Mathew Carey"
+      }
+    }
+  ]
+}
